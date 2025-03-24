@@ -1,0 +1,37 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #36393f;
+    color: #dcddde;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.bio {
+    background-color: #2f3136;
+    border: 1px solid #202225;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    white-space: pre-line;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.bio strong {
+    font-weight: 600;
+    color: #fff;
+}
+
+.bio a {
+    color: #00b0f4;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.bio a:hover {
+    text-decoration: underline;
+    color: #0084c2;
+}
+
+#bioOutput {
+    white-space: pre-line;
+}
